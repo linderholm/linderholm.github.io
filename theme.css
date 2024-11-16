@@ -6,14 +6,19 @@ html, body{
     margin: 0;
     height: 100vh;
     width: 100%;
-    background-color: #8C9A8A;
+    background-color: #F1F1F1;
 }
 .main-wrapper {
     max-width: 850px;
     margin: 0 auto;
-    border-left: #6E7D6C 3px solid;
-    border-right: #6E7D6C 3px solid;
-    color: #6E7D6C;
+    border-left: #8C9A8A 3px solid;
+    border-right: #8C9A8A 3px solid;
+    color: #8C9A8A;
+}
+.heading-wrapper {
+    background-color: #8C9A8A;
+    color: #fff;
+    text-align: center;
 }
 .section-wrapper {
     background-color: #fff;
@@ -70,6 +75,7 @@ html, body{
 }
 .section{
     padding: 3em;
+    padding-top: 0;
     margin: auto;
     max-width: 660px;
 }
@@ -105,11 +111,10 @@ html, body{
         padding-top: 60vh;
     }
     .main-wrapper {
-        max-width: 380px;
         margin: 0 auto;
-        border-left: #6E7D6C 3px solid;
-        border-right: #6E7D6C 3px solid;
-        color: #6E7D6C;
+        border-left: #8C9A8A 3px solid;
+        border-right: #8C9A8A 3px solid;
+        color: #8C9A8A;
     }
     .section{
         padding: 1em;
