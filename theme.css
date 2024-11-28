@@ -25,7 +25,7 @@ html, body{
 }
 .header{
     text-align: center;
-    background-image: url(./img/hero2.jpeg);
+    background-image: url(./img/hero10.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 40%;
     background-attachment: scroll;
@@ -95,13 +95,17 @@ html, body{
 .resort-image{
     width: 100%
 }
+.osa-wrapper{
+    margin-left: -32px;
+    margin-right: -32px;
+}
 
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
     }
     .header{
-        background-image: url(./img/hero2.jpeg);
+        background-image: url(./img/hero10.jpeg);
         background-repeat: no-repeat;
         background-position: 50% 60%;
         background-attachment: scroll;
@@ -112,8 +116,8 @@ html, body{
     }
     .main-wrapper {
         margin: 0 auto;
-        border-left: #8C9A8A 3px solid;
-        border-right: #8C9A8A 3px solid;
+        border-left: 0px;
+        border-right: 0px;
         color: #8C9A8A;
     }
     .section{
