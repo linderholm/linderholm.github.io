@@ -8,6 +8,9 @@ html, body{
     width: 100%;
     background-color: #F1F1F1;
 }
+a {
+    color: #8C9A8A;
+}
 .main-wrapper {
     max-width: 850px;
     margin: 0 auto;
@@ -15,6 +18,7 @@ html, body{
     border-right: #8C9A8A 3px solid;
     color: #8C9A8A;
 }
+
 .heading-wrapper {
     background-color: #8C9A8A;
     color: #fff;
